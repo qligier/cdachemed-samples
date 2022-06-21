@@ -49,7 +49,7 @@
                 </name>
                 <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" codeSystemName="HL7 AdministrativeGender" displayName="Female" />
                 <birthTime value="19430515" />
-                <maritalStatusCode code="M" codeSystem="2.16.840.1.113883.1.11.12212" codeSystemName="HL7 MaritalStatus" displayName="Married" />
+                <maritalStatusCode code="M" codeSystem="2.16.840.1.113883.5.2" codeSystemName="HL7 MaritalStatus" displayName="Married" />
                 <religiousAffiliationCode code="1007" codeSystem="2.16.840.1.113883.5.1076" codeSystemName="Religious Affiliation" displayName="Atheism" />
                 <guardian>
                     <id root="2.999" extension="11111111" />
@@ -87,8 +87,8 @@
                 </languageCommunication>
                 <languageCommunication>
                     <languageCode code="en"/>
-                    <modeCode code="ESGN" />
-                    <proficiencyLevelCode code="F" />
+                    <modeCode code="ESGN" codeSystem="2.16.840.1.113883.5.60" codeSystemName="Language Ability Mode" displayName="Expressed signed" />
+                    <proficiencyLevelCode code="F" codeSystem="2.16.840.1.113883.5.61" codeSystemName="Language Ability Proficiency" displayName="Fair" />
                 </languageCommunication>
             </patient>
             <providerOrganization>
