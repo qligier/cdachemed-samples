@@ -13,7 +13,7 @@
     <code code="77603-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication treatment plan.extended">
         <translation xsi:type="CD" code="419891008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Record artifact (record artifact)" />
     </code>
-    <title>Medication Treatment Plan</title>
+    <title>Décision thérapeutique relative à la médication</title>
     <!-- invalid date-->
     <effectiveTime value="20111132110000+0100" />
     <confidentialityCode code="17621005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Normally accessible" />
